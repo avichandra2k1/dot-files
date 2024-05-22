@@ -1,0 +1,36 @@
+#!/bin/bash
+#dark blue
+#options=(
+#	style=round
+#	width=5.0
+#	hidpi=on
+##	active_color=0xaae2e2e3
+##	active_color=0xff3081F7
+#	active_color=0x9500ff00
+#	#active_color=0xdd5DADE2
+#	inactive_color=0xff808080
+#)
+#
+#borders "${options[@]}"
+
+# light mode
+options=(
+	style=round
+	width=8
+	hidpi=on
+#	active_color=0xaae2e2e3
+	active_color=0xeeFFFFFF
+#active_color = 0xffCD8B70
+#active_color="glow(0xd943ff64)"
+#active_color="glow(0xff5D6291)"
+#inactive_color=0x20494d64
+#	active_color=0xff5a5255
+	#active_color=0xdd5DADE2
+	inactive_color=0x66888888
+#  whitelist="wezterm-gui"
+#  blacklist="company.thebrowser.Browser"
+)
+
+borders "${options[@]}"
+
+
