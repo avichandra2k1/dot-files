@@ -2,5 +2,8 @@
 *.log
 *.bak
 
+# built event providers
+bin/
+
 # nvim
 nvim/.mypy_cache/
