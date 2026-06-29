@@ -6,5 +6,10 @@
 # built event providers
 bin/
 
+# local machine state
+herdr/session.json
+herdr/.plugins.lock
+herdr/release-notes.json
+
 # nvim
 nvim/.mypy_cache/

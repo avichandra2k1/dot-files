@@ -1,0 +1,18 @@
+onboarding = false
+
+[ui.toast]
+delivery = "herdr"
+
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+[keys]
+switch_workspace = "prefix+shift+1..9"
+#next_workspace = "prefix+j"
+#previous_workspace = "prefix+k"
+#previous_tab = "prefix+h"
+#next_tab = "prefix+l"
+
+[ui]
+show_agent_labels_on_pane_borders = true
