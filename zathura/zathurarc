@@ -1,0 +1,21 @@
+set selection-clipboard clipboard
+set page-cache-size 5
+set page-thumbnail-size 524288
+set guioptions none
+
+# colors
+#set recolor-lightcolor "#1e1e1e"
+#set recolor-darkcolor "#d8d8d8"
+#set recolor-keephue true
+
+# j/k = previous/next page
+map j navigate next
+map k navigate previous
+
+# J/K = scroll down/up
+map J scroll down
+map K scroll up
+
+# toggle full screen
+:map [normal] x toggle_fullscreen
+:map [fullscreen] x toggle_fullscreen
