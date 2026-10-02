@@ -17,5 +17,5 @@ map J scroll down
 map K scroll up
 
 # toggle full screen
-:map [normal] x toggle_fullscreen
-:map [fullscreen] x toggle_fullscreen
+:map [normal] f toggle_fullscreen
+:map [fullscreen] f toggle_fullscreen
